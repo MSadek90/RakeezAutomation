@@ -1,0 +1,80 @@
+[DEBUG] 2024-12-23 22:46:42 DEBUG TestNG - suiteXmlPath: "C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml"
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:null] 669658892
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ================ SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] =============== DONE SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== END SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] -1113275789
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ================ SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] =============== DONE SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== END SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE BaseTest.setUp()[pri:0, instance:Tests.happyScenarioForFundRequest@34f6515b] 173147087
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ================ SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] =============== DONE SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== END SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.companyNewFundOrder()[pri:0, instance:Tests.happyScenarioForFundRequest@34f6515b] 1547763770
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b] -2065744705
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyNewFundOrder()[pri:0, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED happyScenarioForFundRequest.companyNewFundOrder()[pri:0, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM INDEPENDENT OBJECTS
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b] 1240061687
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM INDEPENDENT OBJECTS
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b] -680168652
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM INDEPENDENT OBJECTS
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.companyPayTheFees()[pri:8, instance:Tests.happyScenarioForFundRequest@34f6515b] -935222171
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyPayTheFees()[pri:8, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM INDEPENDENT OBJECTS
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b] 918358524
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM INDEPENDENT OBJECTS
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b] 33442759
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM INDEPENDENT OBJECTS
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b] 844825868
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM INDEPENDENT OBJECTS
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b] -309131714
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM INDEPENDENT OBJECTS
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ================ SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyNewFundOrder()[pri:0, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyPayTheFees()[pri:8, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   ADDING PREDECESSOR FOR happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b] ==> happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED PRED happyScenarioForFundRequest.companyNewFundOrder()[pri:0, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM NODE happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED PRED happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM NODE happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED PRED happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM NODE happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED PRED happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM NODE happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED PRED happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM NODE happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED PRED happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM NODE happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED PRED happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM NODE happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]   REMOVED PRED happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b] FROM NODE happyScenarioForFundRequest.companyPayTheFees()[pri:8, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] =============== DONE SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.companyNewFundOrder()[pri:0, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.companyUploadFiles()[pri:1, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.adminLogin()[pri:2, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.adminConfirmOrdersStep_1()[pri:3, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.companyContinueUploadFilesStep_2()[pri:4, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.adminApproveRequestsStep_2()[pri:5, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.companyConfirmThenMoveToStep_3()[pri:6, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.companyContinueStep_3()[pri:7, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph]               happyScenarioForFundRequest.companyPayTheFees()[pri:8, instance:Tests.happyScenarioForFundRequest@34f6515b]
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== END SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:Tests.happyScenarioForFundRequest@34f6515b] 736746824
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ================ SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] =============== DONE SORTING
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== SORTED NODES
+[TRACE] 2024-12-23 22:46:42 TRACE Graph - [Graph] ====== END SORTED NODES
+[INFO] 2024-12-23 22:46:42 INFO  Utils - [TestNG] Running:
+  C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+[INFO] 2024-12-23 22:46:44 INFO  LogUtilities - The url is: https://rs.rakeez.sa/test/5793 And opened
+[INFO] 2024-12-23 22:46:55 INFO  LogUtilities - The company clicks on the fundRequests button

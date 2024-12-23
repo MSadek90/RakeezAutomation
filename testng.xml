@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite_001">
+
+
+   <listeners>
+        <listener class-name="Listeners.ITest"/>
+    </listeners>
+
+
+    <test name="ValidScenario">
+        <classes>
+            <class name="Tests.happyScenarioForFundRequest"/>
+        </classes>
+    </test>
+</suite>

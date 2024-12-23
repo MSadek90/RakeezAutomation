@@ -1,0 +1,11 @@
+[INFO] 2024-12-23 22:49:01 INFO  Utils - [TestNG] Running:
+  C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+[INFO] 2024-12-23 22:49:04 INFO  LogUtilities - The url is: https://rs.rakeez.sa/test/5793 And opened
+[INFO] 2024-12-23 22:49:12 INFO  LogUtilities - The company clicks on the fundRequests button
+[INFO] 2024-12-23 22:49:13 INFO  LogUtilities - The company clicks on New fundRequest
+[INFO] 2024-12-23 22:49:24 INFO  LogUtilities - The company send files in the first step then click on the send button
+[INFO] 2024-12-23 22:49:27 INFO  LogUtilities - The Admin Login to his Dashboard
+[INFO] 2024-12-23 22:49:28 INFO  LogUtilities - The Admin Send OTP After Login
+[INFO] 2024-12-23 22:49:34 INFO  LogUtilities - The Admin Clicks on fundRequests from Admin Dashboard
+[INFO] 2024-12-23 22:49:44 INFO  LogUtilities - The Admin Clicks on the requestDetails button
