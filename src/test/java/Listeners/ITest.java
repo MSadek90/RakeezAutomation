@@ -11,6 +11,7 @@ public class ITest implements ITestListener {
 
     public void onTestSuccess(ITestResult result) {
          System.out.println(result.getMethod().getMethodName() + " >>>>> passed");
+         Utility.takeScreenShot(driver,"file");
     }
 
     public void onTestFailure(ITestResult result) {

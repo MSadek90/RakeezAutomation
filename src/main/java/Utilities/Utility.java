@@ -1,5 +1,6 @@
 package Utilities;
 
+import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.locators.RelativeLocator;
@@ -11,6 +12,8 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -203,6 +206,8 @@ public class Utility {
             File destinationFile = new File(pathFile + fileName + ".png");
 
             FileUtils.copyFile(sourceFile, destinationFile);
+
+            Allure.addAttachment(fileName, Files.newInputStream(Path.of(destinationFile.getPath())));
         }
         catch (Exception e) {
             System.out.println("Error in ScreenShot: " + e.getMessage());

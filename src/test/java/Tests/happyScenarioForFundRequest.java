@@ -1,6 +1,8 @@
 package Tests;
 import Pages.*;
 import Utilities.LogUtilities;
+import Utilities.Utility;
+import io.qameta.allure.Description;
 import org.openqa.selenium.WindowType;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -12,6 +14,7 @@ import static Pages.BasePage.getSuccessMessageWebElement;
 import static Properties.ReadDataFromFile.getPropertyValue;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import Listeners.ITest;
+
 
 
 
@@ -42,9 +45,12 @@ public class happyScenarioForFundRequest extends BaseTest {
                         .clickNewFundRequest();
         LogUtilities.info("The company clicks on New fundRequest");
 
+
        //Assert if the company navigates to access a new fund order page
        assertThat(driver.getCurrentUrl())
                           .isEqualTo(getPropertyValue("Data","expected_Url"));
+
+        Utility.takeScreenShot(driver,"companyNewRequest");
 
     }
 
@@ -67,10 +73,13 @@ public class happyScenarioForFundRequest extends BaseTest {
         LogUtilities.info("The company send files in the first step then click on the send button");
 
 
+
         assertThat(getSuccessMessageWebElement()
                                           .getText())
                                                    .isEqualTo
                         ("تم استلام طلبك بنجاح جاري العمل على طلب التمويل الخالص بك");
+
+        Utility.takeScreenShot(driver,"companySendFiles");
 
 
        Robot robot = new Robot();

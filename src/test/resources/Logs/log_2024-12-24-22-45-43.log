@@ -1,0 +1,14 @@
+[INFO] 2024-12-24 22:45:44 INFO  Utils - [TestNG] Running:
+  C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+[INFO] 2024-12-24 22:45:46 INFO  LogUtilities - The url is opened
+[INFO] 2024-12-24 22:45:54 INFO  LogUtilities - The company clicks on the fundRequests button
+[INFO] 2024-12-24 22:45:56 INFO  LogUtilities - The company clicks on New fundRequest
+[ERROR] 2024-12-24 22:45:56 ERROR AllureLifecycle - Could not add attachment: no test is running
+[INFO] 2024-12-24 22:46:07 INFO  LogUtilities - The company send files in the first step then click on the send button
+[ERROR] 2024-12-24 22:46:09 ERROR AllureLifecycle - Could not add attachment: no test is running
+[INFO] 2024-12-24 22:46:11 INFO  LogUtilities - The Admin Login to his Dashboard
+[INFO] 2024-12-24 22:46:12 INFO  LogUtilities - The Admin Send OTP After Login
+[ERROR] 2024-12-24 22:46:12 ERROR AllureLifecycle - Could not add attachment: no test is running
+[INFO] 2024-12-24 22:46:18 INFO  LogUtilities - The Admin Clicks on fundRequests from Admin Dashboard
+[INFO] 2024-12-24 22:46:28 INFO  LogUtilities - The Admin Clicks on the requestDetails button

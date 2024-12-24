@@ -1,0 +1,11 @@
+[INFO] 2024-12-24 22:20:41 INFO  Utils - [TestNG] Running:
+  C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2024.3\temp-testng-customsuite.xml
+
+[INFO] 2024-12-24 22:20:46 INFO  LogUtilities - The url is opened
+[INFO] 2024-12-24 22:20:59 INFO  LogUtilities - The company clicks on the fundRequests button
+[INFO] 2024-12-24 22:21:01 INFO  LogUtilities - The company clicks on New fundRequest
+[INFO] 2024-12-24 22:21:12 INFO  LogUtilities - The company send files in the first step then click on the send button
+[INFO] 2024-12-24 22:21:17 INFO  LogUtilities - The Admin Login to his Dashboard
+[INFO] 2024-12-24 22:21:17 INFO  LogUtilities - The Admin Send OTP After Login
+[INFO] 2024-12-24 22:21:23 INFO  LogUtilities - The Admin Clicks on fundRequests from Admin Dashboard
+[INFO] 2024-12-24 22:21:33 INFO  LogUtilities - The Admin Clicks on the requestDetails button
